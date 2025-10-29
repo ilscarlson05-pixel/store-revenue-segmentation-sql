@@ -49,6 +49,18 @@ FROM store_revenue
 GROUP BY store_category 
 ORDER BY store_category;
 
+ Explanation;
+
+1.First, we calculate how much money each store made in 2023.
+
+2.We use information from both the sales and store tables to get the numbers we need.
+
+3.Then, we divide stores into categories based on their size (small, medium, large) and revenue (low or high). Online stores are grouped separately.
+
+4.For each category, we add up all the revenue and figure out what percentage of the total revenue it represents.
+
+5.Finally, we show the results grouped by store category so it’s easy to compare.
+
 ## 📊 Revenue by Store Category
 A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
 ![Category_Revenue png](https://github.com/user-attachments/assets/78016712-1685-4f50-b93c-cd97fbb593ac)
