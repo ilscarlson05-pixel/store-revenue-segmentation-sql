@@ -61,6 +61,19 @@ ORDER BY store_category;
 
 5.Finally, we show the results grouped by store category so it’s easy to compare.
 
+Tools I Used — Store Revenue Segmentation
+
+## 🧰 Tools I Used
+ **SQL** – For performing advanced data segmentation and revenue analysis  
+ **PostgreSQL** – To run and validate complex queries  
+ **Common Table Expression (CTE)** – For calculating total revenue per store before categorization  
+ **CASE WHEN Statements** – To classify stores based on size and revenue level  
+ **Aggregate Functions (SUM, Percentage Calculations)** – To find total and percentage contributions  
+ **GROUP BY** – To summarize data by store category  
+- **Data Filtering (WHERE Clause)** – To include only 2023 sales  
+ **Data Visualization (Optional)** – To visualize revenue contribution by store categories
+
+
 ## 📊 Revenue by Store Category
 A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
 ![Category_Revenue png](https://github.com/user-attachments/assets/78016712-1685-4f50-b93c-cd97fbb593ac)
