@@ -73,7 +73,6 @@ Tools I Used — Store Revenue Segmentation
 - **Data Filtering (WHERE Clause)** – To include only 2023 sales  
  **Data Visualization (Optional)** – To visualize revenue contribution by store categories
 
-
 ## 📊 Revenue by Store Category
 A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
 ![Category_Revenue png](https://github.com/user-attachments/assets/78016712-1685-4f50-b93c-cd97fbb593ac)
