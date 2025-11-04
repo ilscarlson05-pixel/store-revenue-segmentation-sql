@@ -35,9 +35,6 @@ Finally, it computes each category’s **percentage contribution** to total reve
 This SQL project demonstrates how data segmentation and conditional logic can help businesses evaluate performance more effectively.  
 By categorizing stores by size and revenue, companies can identify which types of outlets drive the most value and where improvements are needed.
 
-📈 The project highlights how **SQL** can be used for analytical reporting, business segmentation, and strategic insight generation — all within a single query.
-![Revenue by Store Category](https://github.com/ilscarlson05-pixel/store-revenue-segmentation-sql/blob/main/Screenshot%202025-11-04%20122702%20SQL.png?raw=true)
-
 ## 🧩 Problem Statement
 Classify stores based on squaremeters and net revenue to analyze their contribution in 2023.
 
@@ -56,6 +53,7 @@ Classify stores based on squaremeters and net revenue to analyze their contribut
 - Use a Common Table Expression (CTE) to simplify calculations
 ## 📊 Revenue by Store Category (Visualization)
 ![Revenue by Store Category](https://github.com/ilscarlson05-pixel/store-revenue-segmentation-sql/blob/main/Screenshot%202025-11-04%20122702%20SQL.png?raw=true)
+
 A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
 ---
 
