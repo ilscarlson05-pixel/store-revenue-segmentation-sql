@@ -84,7 +84,7 @@ FROM store_revenue
 GROUP BY store_category 
 ORDER BY store_category;
 ## 📊 Revenue by Store Category (Visualization)
-![Category_Revenue.png](https://github.com/ilscarlson05-pixel/store-revenue-segmentation-sql/blob/main/Screenshot%202025-11-04%20122702%20SQL.png)
+![Revenue by Store Category](https://github.com/ilscarlson05-pixel/store-revenue-segmentation-sql/blob/main/Screenshot%202025-11-04%20122702%20SQL.png?raw=true)
 A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
  Explanation;
 
@@ -109,8 +109,8 @@ Tools I Used — Store Revenue Segmentation
  **GROUP BY** – To summarize data by store category  
 - **Data Filtering (WHERE Clause)** – To include only 2023 sales  
  **Data Visualization (Optional)** – To visualize revenue contribution by store categories
+## ✍️ Author
+**Davlataliev Ilyosbek**  
+💼 Data Analytics Enthusiast | SQL, Excel & BI Learner
 
-## 📊 Revenue by Store Category
-A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
-![Category_Revenue png](https://github.com/user-attachments/assets/78016712-1685-4f50-b93c-cd97fbb593ac)
 
