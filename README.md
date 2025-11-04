@@ -111,6 +111,7 @@ Tools I Used — Store Revenue Segmentation
  **GROUP BY** – To summarize data by store category  
 - **Data Filtering (WHERE Clause)** – To include only 2023 sales  
  **Data Visualization (Optional)** – To visualize revenue contribution by store categories
+![Revenue by Store Category](https://github.com/ilscarlson05-pixel/store-revenue-segmentation-sql/blob/main/Screenshot%202025-11-04%20122702%20SQL.png?raw=true)
 ## ✍️ Author
 **Davlataliev Ilyosbek**  
 💼 Data Analytics Enthusiast | SQL, Excel & BI Learner
