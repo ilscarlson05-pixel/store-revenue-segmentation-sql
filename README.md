@@ -83,6 +83,12 @@ SELECT
 FROM store_revenue
 GROUP BY store_category 
 ORDER BY store_category;
+## 📊 Revenue by Store Category (SQL Result)
+
+Below is the result of the final SQL query showing each store category, total net revenue, and its percentage contribution for 2023:
+
+![Revenue by Store Category](https://github.com/ilscarlson05-pixel/store-revenue-segmentation-sql/blob/main/Screenshot%202025-11-04%20122702%20SQL.png?raw=true)
+
 ## 📊 Revenue by Store Category (Visualization)
 ![Revenue by Store Category](https://github.com/ilscarlson05-pixel/store-revenue-segmentation-sql/blob/main/Screenshot%202025-11-04%20122702%20SQL.png?raw=true)
 A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
