@@ -1,4 +1,4 @@
-# 🌍 Store-Revenue-Segmentation-sql
+# ✨ Store-Revenue-Segmentation-sql
 SQL project categorizing stores by size and revenue, analyzing their contribution in 2023
 
 # 🏬 Store Revenue Segmentation — SQL Analysis Project
