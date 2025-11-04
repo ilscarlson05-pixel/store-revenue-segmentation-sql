@@ -1,6 +1,41 @@
 # store-revenue-segmentation-sql
 SQL project categorizing stores by size and revenue, analyzing their contribution in 2023
 # Store Revenue Segmentation (SQL Project)
+# 🏬 Store Revenue Segmentation — SQL Analysis Project
+
+## 📊 Overview
+This project focuses on analyzing store performance based on **size (square meters)** and **net revenue** using SQL.  
+By classifying stores into categories (small, medium, large, or online), we can understand how each group contributes to total company revenue in 2023.
+
+The analysis uses a **CTE (Common Table Expression)** to calculate total revenue for each store and then applies conditional logic to categorize them.  
+Finally, it computes each category’s **percentage contribution** to total revenue.
+## 📚 Dataset Used
+- **Tables Used:**
+  - `sales`: Contains transaction-level data including quantity, price, and order date.
+  - `store`: Contains store-level data such as store ID and squaremeters.
+- **Columns Used:**
+  - From `sales`: `storekey`, `quantity`, `netprice`, `exchangerate`, `orderdate`
+  - From `store`: `storekey`, `squaremeters`
+- **Time Period:** 2023
+- **Data Source:** Company database (simulated data for educational analysis)
+## ⚙️ Process
+1. **Data Extraction:** Selected relevant columns from `sales` and `store` tables.  
+2. **Data Filtering:** Limited analysis to transactions made in 2023.  
+3. **Revenue Calculation:** Computed total revenue per store using quantity, price, and exchange rate.  
+4. **Store Categorization:** Used `CASE WHEN` statements to classify stores based on area and revenue.  
+5. **Aggregation:** Summed revenue per category and calculated each category’s percentage contribution.  
+6. **Sorting:** Ordered results for easy comparison across store categories.
+## 💡 Project Insights
+- 🏬 **Large Stores (High Revenue)** contributed the majority of total revenue, showing strong performance among big outlets.  
+- 🧱 **Medium Stores (High Revenue)** showed efficient use of space with strong revenue per square meter.  
+- 🛍️ **Small Stores (High Revenue)** indicated successful niche markets or urban locations.  
+- 🌐 **Online Stores** accounted for a smaller share but provide potential for growth.  
+- 💰 Overall, revenue distribution aligns with store size but highlights some high-performing smaller stores.
+## 🧾 Conclusion
+This SQL project demonstrates how data segmentation and conditional logic can help businesses evaluate performance more effectively.  
+By categorizing stores by size and revenue, companies can identify which types of outlets drive the most value and where improvements are needed.
+
+📈 The project highlights how **SQL** can be used for analytical reporting, business segmentation, and strategic insight generation — all within a single query.
 
 ## 🧩 Problem Statement
 Classify stores based on squaremeters and net revenue to analyze their contribution in 2023.
