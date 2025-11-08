@@ -56,6 +56,13 @@ Classify stores based on squaremeters and net revenue to analyze their contribut
 
 A table showing the store category, total net revenue, and percentage contribution for each store category in 2023.
 ---
+##  Revenue Visualization
+![WhatsApp Image 2025-11-08 at 09 08 19_bb811a8d](https://github.com/user-attachments/assets/527331fc-28bd-48b5-a26f-bd0be2f38c04)
+The Bar Chart show the total net revenue for each store category
+
+##Net Revenue Visualization
+![WhatsApp Image 2025-11-08 at 09 08 19_2cab78f1](https://github.com/user-attachments/assets/d7b79316-6db0-4a92-a295-ab0145c1a0f9)
+The pie chart illustrates the percentage contribution of each store type to the total revenue where the Online Store clearly dominates.
 
 ## 💡 SQL Solution
 ```sql
